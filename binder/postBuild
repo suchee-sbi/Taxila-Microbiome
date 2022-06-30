@@ -6,4 +6,4 @@ jupyter nbextension     enable --py --sys-prefix appmode
 jupyter serverextension enable --py --sys-prefix appmode
 
 # Import the workspace into JupyterLab
-jupyter lab workspaces import binder/workspace.json
+# jupyter lab workspaces import binder/workspace.json
