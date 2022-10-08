@@ -1,7 +1,7 @@
 # Taxila-Microbiome
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/suchee-sbi/Taxila-Microbiome/main?urlpath=lab)
 
-This repository contains code & data for interactive visualization of our paper [**Large scale text-mining for deriving novel insights: A case study focused on Microbiome**](). To access interactively, click on the _Binder badge_ on the top or [here](https://mybinder.org/v2/gh/suchee-sbi/Taxila-Microbiome/main?urlpath=lab).
+This repository contains code & data for interactive visualization of our paper [**Large scale text-mining for deriving novel insights: A case study focused on Microbiome**](https://doi.org/10.3389/fphys.2022.933069). To access interactively, click on the _Binder badge_ on the top or [here](https://mybinder.org/v2/gh/suchee-sbi/Taxila-Microbiome/main?urlpath=lab).
 
 ## Notebooks
 <details>
