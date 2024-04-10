@@ -8,4 +8,4 @@ RUN pip install appmode
 RUN jupyter nbextension enable --py --sys-prefix appmode
 RUN jupyter serverextension enable --py --sys-prefix appmode
 EXPOSE 13853
-CMD ["jupyter", "notebook", "--ip='*'", "--port=13853", "--NotebookApp.token=''", "--NotebookApp.password=''", "--allow-root", "--NotebookApp.tornado_settings={'headers':{'Content-Security-Policy': 'frame-ancestors * self'}}"]
+CMD ["jupyter", "notebook", "--port=13853", "--allow-root", "--ip='*'", "--no-browser", "--NotebookApp.token=''", "--NotebookApp.password=''", "--NotebookApp.disable_check_xsrf=True",  "--NotebookApp.allow_origin='*'", "--NotebookApp.tornado_settings={'headers':{'Content-Security-Policy': 'frame-ancestors * self'}}"]
