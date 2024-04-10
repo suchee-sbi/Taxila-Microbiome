@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  mbpaper:
+    container_name: mbpaper
+    build: .
+    image: mbpaper:v1.0.0
+    restart: always
